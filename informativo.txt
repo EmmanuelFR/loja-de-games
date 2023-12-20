@@ -1,0 +1,18 @@
+UNIFAA - Engenharia de Sofware - 2023.2.2 - Disciplina "Back-end Developer - Conhecendo Banco de Dados e Integrando Aplicações"
+Parte (etapa) inicial dade uma API nicial de uma API para um novo sistema de E-Commerce.
+
+1) Criar um CRUD completo de Produtos. 
+
+2) Criar um CRUD Completo de Categorias.
+
+3) Consultar uma lista de produtos vinculada a uma categoria.
+
+4) Consultar um produto pelo seu id. 
+
+5) Criar um CRUD completo de Cliente
+
+6) Todo cliente pode ter muitos endereços. 
+
+7) Todo endereço deve ter (CEP, Rua, Numero, Bairro, Complemento, Cidade e Estado)
+
+OBS.: A Criação de toda a API deve seguir passo a passo as boas práticas aprendidas durante o curso.

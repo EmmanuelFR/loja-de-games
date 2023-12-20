@@ -1,0 +1,64 @@
+GET HTTP://localhost:8081/api/categorias
+###
+
+GET HTTP://localhost:8081/api/categorias/1
+
+###
+
+GET HTTP://localhost:8081/api/categorias/2
+
+###
+
+POST HTTP://localhost:8081/api/categorias
+Content-Type: application/json
+
+{
+    "generoDoJogo": "Açao",
+    "produto": {
+        "id": 1
+    }
+}
+
+###
+
+POST HTTP://localhost:8081/api/categorias
+Content-Type: application/json
+
+{
+    "generoDoJogo": "Plataforma Tridimensional",
+    "produto": {
+        "id": 1
+    }
+}
+
+###
+
+PUT HTTP://localhost:8081/api/categorias/1
+Content-Type: application/json
+
+{
+    "generoDoJogo": "Ação",
+    "produto": {
+        "id": 1
+    }
+}
+
+###
+
+PUT HTTP://localhost:8081/api/categorias/2
+Content-Type: application/json
+
+{
+    "generoDoJogo": "Plataforma 3D",
+    "produto": {
+        "id": 1
+    }
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/categorias/1
+
+###
+
+DELETE HTTP://localhost:8081/api/categorias/2

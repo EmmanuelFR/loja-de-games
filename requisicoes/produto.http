@@ -1,0 +1,32 @@
+GET HTTP://localhost:8081/api/produtos
+
+###
+GET HTTP://localhost:8081/api/produtos/1
+
+###
+
+POST HTTP://localhost:8081/api/produtos
+Content-Type: application/json
+
+{
+    "nomeDoJogo": "Sonic the Hedgehog",
+    "dataLancamento": "2006-11-14T00:00:00",
+    "preco": 150.0,
+    "plataforma": "Xbox 360"
+}
+
+###
+
+PUT HTTP://localhost:8081/api/produtos/1
+Content-Type: application/json
+
+{
+    "nomeDoJogo": "Sonic the Hedgehog",
+    "dataLancamento": "2007-01-30T00:00:00",
+    "preco": 200.0,
+    "plataforma": "PlayStation 3"
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/produtos/1

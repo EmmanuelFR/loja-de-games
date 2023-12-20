@@ -1,0 +1,35 @@
+GET HTTP://localhost:8081/api/clientes
+
+###
+
+GET HTTP://localhost:8081/api/clientes/1
+
+###
+
+POST HTTP://localhost:8081/api/clientes
+Content-Type: application/json
+
+{
+    "nome": "Jefferson Santos",
+    "idade": "18 anos de idade",
+    "genero": "Masculino",
+    "email": "santos.jf@gmail.com",
+    "telefoneCelular": "+55 (24) 93241-7685"
+}
+
+###
+
+PUT HTTP://localhost:8081/api/clientes/1
+Content-Type: application/json
+
+{
+    "nome": "Jeferson dos Santos",
+    "idade": "18 anos",
+    "genero": "Masculino",
+    "email": "santos.jf@gmail.com",
+    "telefoneCelular": "(24) 93241-7685"
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/clientes/1

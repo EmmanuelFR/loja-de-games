@@ -1,0 +1,89 @@
+GET HTTP://localhost:8081/api/enderecos
+
+###
+
+GET HTTP://localhost:8081/api/enderecos/1
+
+###
+
+GET HTTP://localhost:8081/api/enderecos/2
+
+###
+
+POST HTTP://localhost:8081/api/enderecos
+Content-Type: application/json
+
+{
+    "cep": "27600-000",
+    "rua": "Sargento Vitor Hugo",
+    "numero": "161",
+    "bairro": "Fátima",
+    "complemento": "Sede",
+    "cidade": "Valença",
+    "estado": "Rio de Janeiro",
+    "cliente": {
+        "id": 1
+    }
+}
+
+###
+
+POST HTTP://localhost:8081/api/enderecos
+Content-Type: application/json
+
+{
+    "cep": "27600-000",
+    "rua": "Rua dos Mineiros",
+    "numero": "15",
+    "bairro": "Centro",
+    "complemento": "Polo EAD",
+    "cidade": "Valença",
+    "estado": "Rio de Janeiro",
+    "cliente": {
+        "id": 1
+    }
+}
+
+###
+
+PUT HTTP://localhost:8081/api/enderecos/1
+Content-Type: application/json
+
+{
+    "cep": "27600-000",
+    "rua": "Rua Sargento Vitor Hugo",
+    "numero": "Nº 161",
+    "bairro": "Bairro de Fátima",
+    "complemento": "Campus Sede",
+    "cidade": "Valença",
+    "estado": "RJ",
+    "cliente": {
+        "id": 1
+    }
+}
+
+###
+
+PUT HTTP://localhost:8081/api/enderecos/2
+Content-Type: application/json
+
+{
+    "cep": "27600-000",
+    "rua": "Rua dos Mineiros",
+    "numero": "150",
+    "bairro": "Centro",
+    "complemento": "Polo EAD - Loja A",
+    "cidade": "Valença",
+    "estado": "RJ",
+    "cliente": {
+        "id": 1
+    }
+}
+
+###
+
+DELETE HTTP://localhost:8081/api/enderecos/1
+
+###
+
+DELETE HTTP://localhost:8081/api/enderecos/2
